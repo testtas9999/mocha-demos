@@ -1,0 +1,14 @@
+--- 
+framework: mocha
+postMerge: 
+  pattern: 
+    - "test/**/*.spec.js"
+postRun: 
+  command: 
+    - "node --version"  
+preMerge: 
+  pattern: 
+    - "test/**/*.spec.js"
+preRun: 
+  command: 
+    - npm ci
