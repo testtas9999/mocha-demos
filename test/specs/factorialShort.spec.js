@@ -17,7 +17,7 @@ describe('factorialShort', function() {
     });
 
     it('should return 6 when called with number 3', function() {
-        expect(factorial.factorialShort(3)).to.be.equal(7);
+        expect(factorial.factorialShort(3)).to.be.equal(6);
     });
 
     it('should return 362880 when called with number 9', function() {
