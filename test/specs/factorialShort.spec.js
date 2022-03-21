@@ -34,6 +34,12 @@ describe('factorialShort', function() {
         factorial.factorialShort(2);
         expect(spy).to.have.been.called(2);
     });
+    
+    it('[Duplicate] should be called twice when provided with 2', function() {
+        factorial.factorialShort(2);
+        expect(spy).to.have.been.called(2);
+    });
+    
 
     it('should return 1 when provided 1', function() {
         expect(factorial.factorialShort(1)).to.be.equal(1);
